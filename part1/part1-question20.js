@@ -1,0 +1,10 @@
+function ffs(){
+    let interval = setInterval(callback, 1000);
+    function callback(){
+        let d = new Date();
+        let time = d.toLocaleDateString();
+        console.log(time);
+    }
+}
+
+ffs();
